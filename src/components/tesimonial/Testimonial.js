@@ -6,7 +6,7 @@ import Title from "../layouts/Title";
 import {
   testimonialOne,
   testimonialTwo,
-  testimonialThree,
+  // testimonialThree,
   quote,
 } from "../../assets";
 
@@ -109,17 +109,14 @@ const Testimonial = () => {
                 data-aos="fade-right"
               >
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  className="h-72 md:h-32 lgl:h-80 rounded-lg object-cover"
                   src={testimonialOne}
                   alt="testimonialOne"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Spider Man
-                  </p>
-                  <h3 className="text-2xl font-bold">Peter Parker</h3>
+                  <h3 className="text-2xl font-bold">MD Abdullah </h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Sr. Web Developer
+                    Software Engineer at Galaxy Star Information Technology
                   </p>
                 </div>
               </div>
@@ -132,7 +129,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        After School Diaries
+                        E-Commerce Web App
                       </h3>
                       <p
                         className="text-base text-gray-400 mt-3"
@@ -142,7 +139,7 @@ const Testimonial = () => {
                           justifyContent: "center",
                         }}
                       >
-                        via Upwork - March 2023
+                        United Arab Emirates- March 2024-Running
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -154,10 +151,10 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Very good concept of bundling all the old cartoons and
-                    shows' songs together on one page. It is quite nostalgic for
-                    the Gen Z. The slide effect is amazing and UI is smooth.
-                    Very good project !
+                    "Working with Ayrin was an absolute pleasure! She has
+                    excellent frontend skills, a great eye for design, and
+                    always delivers on time. Her work on our project made the UI
+                    clean, responsive, and user-friendly. Highly recommended!"
                   </p>
                 </div>
               </div>
@@ -172,17 +169,14 @@ const Testimonial = () => {
                 data-aos="fade-right"
               >
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  className="h-72 md:h-32 lgl:h-80 rounded-lg object-cover"
                   src={testimonialTwo}
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Iron Man
-                  </p>
-                  <h3 className="text-2xl font-bold">Tony Stark</h3>
+                  <h3 className="text-2xl font-bold">Al Mamun Talukder</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Sr. Data Scientist
+                    Software Engineer
                   </p>
                 </div>
               </div>
@@ -195,7 +189,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        IPL Win Predictor
+                        Shipping & Logistics Project
                       </h3>
                       <p
                         className="text-base text-gray-400 mt-3"
@@ -205,7 +199,7 @@ const Testimonial = () => {
                           justifyContent: "center",
                         }}
                       >
-                        via Fiverr - May 2023
+                        Dhaka(Nov 2023-Jun 2024)
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -217,9 +211,10 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Very useful project for predicting the win probability of
-                    chasing team using historical ipl data from kaggle and
-                    logistic regression for binary classification.
+                    "I loved working with Ayrin! She's super creative,
+                    hardworking, and always ready to help. The frontend she
+                    built for our site was fast, beautiful, and mobile-friendly.
+                    Would love to work again!"
                   </p>
                 </div>
               </div>
@@ -227,7 +222,7 @@ const Testimonial = () => {
           </div>
           {/* ================ Slider Three ================== */}
 
-          <div className="w-full">
+          {/* <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div
                 className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center"
@@ -286,7 +281,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
     </section>

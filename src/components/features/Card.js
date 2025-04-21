@@ -8,7 +8,7 @@ const Card = ({ item: { title, des, icon } }) => {
       data-aos="flip-up"
     >
       <div className="h-72 overflow-y-hidden">
-        <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+        <div className="flex h-full flex-col gap-8 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
             {icon ? (
               <span className="text-5xl text-designColor">{icon}</span>
@@ -21,8 +21,8 @@ const Card = ({ item: { title, des, icon } }) => {
               </>
             )}
           </div>
-          <div className="flex flex-col gap-6">
-            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+          <div className="flex flex-col gap-5">
+            <h2 className="text-xl md:text-xl font-titleFont font-bold text-gray-300">
               {title}
             </h2>
             <p className="base">{des}</p>

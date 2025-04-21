@@ -19,11 +19,7 @@ const Footer = () => {
       icon: <FiGithub />,
       url: "https://github.com/airinrahat",
     },
-    // {
-    //   id: 3,
-    //   icon: <FiTwitter />,
-    //   url: "https://twitter.com/sajjat_rahman",
-    // },
+
     {
       id: 4,
       icon: <FiLinkedin />,

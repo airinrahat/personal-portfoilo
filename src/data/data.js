@@ -1,44 +1,46 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaBrain } from "react-icons/fa";
-import { SiProgress } from "react-icons/si";
+import { FaServer } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
-import { MdAnalytics } from "react-icons/md";
+import { MdDesignServices, MdWebAsset } from "react-icons/md";
+import { FaCode } from "react-icons/fa";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    icon: <CgWebsite />,
+    title: "Web Development",
+    des: "Created MERN stack apps with live demo and GitHub code.",
   },
+
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    icon: <SiNextdotjs />,
+    title: "Next.js Development",
+    des: "Built full-stack projects using Next.js, MongoDB, and API integrations with smooth routing.",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    icon: <FaCode />,
+    title: "Frontend Development",
+    des: "Built responsive UIs with React, Tailwind & clean UX features.",
   },
   {
     id: 4,
-    icon: <CgWebsite />,
-    title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+    icon: <FaServer />,
+    title: "Backend Integration",
+    des: "Built full-stack apps using Node, Express & MongoDB with CRUD and auth.",
   },
   {
     id: 5,
-    icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
+    icon: <MdDesignServices />,
+    title: "UX Design",
+    des: "Gained skills in data extraction, pattern recognition, and web scraping during my internship.",
   },
   {
     id: 6,
-    icon: <FaBrain />,
-    title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
+    icon: <MdWebAsset />,
+    title: "Deployment & Hosting",
+    des: "Deployed projects on Firebase, Netlify & Vercel with env setup and optimization.",
   },
 ];

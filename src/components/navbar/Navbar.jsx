@@ -115,15 +115,9 @@ const Navbar = () => {
       </div>
 
       <div>
-        {/* <a
-          download="Resume-Of-Sajjat-Rahman.pdf"
-          href="/Resume-Of-Sajjat-Rahman.pdf"
-          className="flex justify-center items-center w-36 sm:w-60  text-lg   py-2 shadow-lg rounded-lg bg-indigo-50 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-          aria-label="Download Resume"
-        > */}
         <a
-          download="Resume-Of-Airin-Rahat-Prome.pdf"
-          href="/Resume-Of-Airin-Rahat-Prome.pdf"
+          download="Resume-Ayrin-Rahat-Promi.pdf"
+          href="/Resume-Ayrin-Rahat-Promi.pdf"
           className="flex justify-center items-center w-36 sm:w-60  text-lg   py-2 shadow-lg rounded-lg bg-indigo-50 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
           aria-label="Download Resume"
         >

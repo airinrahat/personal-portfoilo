@@ -11,9 +11,7 @@ const Education = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">
-            2018 - Running
-          </p>
+          <p className="text-sm text-designColor tracking-[4px]">2018 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">
             Educational Qualification
           </h2>
@@ -23,15 +21,30 @@ const Education = () => {
           data-aos="fade-right"
         >
           <ResumeCard
-            title="BBA 4th Year"
-            subTitle="Gurudayal Govt Collage,Kishoregonj,Dhaka"
-            result="Ongoing"
-            des="Studied  related subject:Accounting"
+            title="BBA in Accounting"
+            subTitle="National University ( 2018 - 2022 )"
+            result="3.10/4"
           />
         </div>
       </div>
 
       <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2016 - 2018</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
+        </div>
+        <div
+          className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"
+          data-aos="fade-left"
+        >
+          <ResumeCard
+            title="Higher Secondary Certificate"
+            subTitle="Business studies"
+            result="complate"
+          />
+        </div>
+      </div>
+      {/* <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2011 - 2016</p>
           <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
@@ -46,24 +59,7 @@ const Education = () => {
             result="complate"
           />
         </div>
-      </div>
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2023</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
-        </div>
-        <div
-          className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"
-          data-aos="fade-left"
-        >
-          <ResumeCard
-            title="Complete Web Development Course With Jhankar Mahbub"
-            subTitle="Progamming Hero - ( 29/12/2022 - Running )"
-            result="Online"
-            des="Learnt MERN stack and made various project using the skills in this course. Check out my Github for project info !"
-          />
-        </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

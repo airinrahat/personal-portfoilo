@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiGithub, SiGmail } from "react-icons/si";
+import { SiMongodb, SiGithub, SiNextdotjs } from "react-icons/si";
+import { FiGlobe } from "react-icons/fi";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -16,11 +17,7 @@ const Media = () => {
               <SiGithub />
             </a>
           </span>
-          <span className="bannerIcon">
-            <a href="airinrahatprome@gmail.com">
-              <SiGmail />
-            </a>
-          </span>
+
           <span className="bannerIcon">
             <a
               href="https://www.linkedin.com/in/airin-rahat-prome-8a79322a4/"
@@ -28,6 +25,11 @@ const Media = () => {
               rel="noopener noreferrer"
             >
               <FaLinkedinIn />
+            </a>
+          </span>
+          <span className="bannerIcon">
+            <a href="https://airinrahat.netlify.app/">
+              <FiGlobe />
             </a>
           </span>
         </div>
@@ -38,11 +40,12 @@ const Media = () => {
         </h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <SiMongodb />
+            <SiNextdotjs />
           </span>
           <span className="bannerIcon">
-            <SiExpress />
+            <SiMongodb />
           </span>
+
           <span className="bannerIcon">
             <FaReact />
           </span>

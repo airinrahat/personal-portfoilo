@@ -57,6 +57,12 @@ const Skills = () => {
             <p className="block">React</p>
           </div>
         </div>
+        <div className="bannerIcon w-auto lg:w-40 h-40" data-aos="zoom-in-up">
+          <div className="text-center">
+            <SiNextdotjs className="text-7xl inline" />
+            <p className="block">Next Js</p>
+          </div>
+        </div>
 
         <div className="bannerIcon w-auto lg:w-40 h-40" data-aos="zoom-in-up">
           <div>
