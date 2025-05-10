@@ -116,8 +116,8 @@ const Navbar = () => {
 
       <div>
         <a
-          download="Resume-Ayrin-Rahat-Promi.pdf"
-          href="/Resume-Ayrin-Rahat-Promi.pdf"
+          download="Resume-Ayrin-Rahat-Prome.pdf"
+          href="/Resume-Ayrin-Rahat-Prome.pdf"
           className="flex justify-center items-center w-36 sm:w-60  text-lg   py-2 shadow-lg rounded-lg bg-indigo-50 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
           aria-label="Download Resume"
         >
